@@ -1,0 +1,34 @@
+INTRODUÇÃO ÀS ESTRUTURAS DE DECISÃO
+
+	No mundo da programação, estruturas de decisão fazer algo semelhante: elas permitem que seu programa tome decisões com base em certas condições.
+	
+	OPERADORES RELACIONAIS EM ESTRUTURAS DE DECISÃO:
+		- > : Maior que
+		- < : Menor que
+		- >= : Maior ou igual a
+		- <= : Menor ou igual a
+		- == : Igual a
+		- != : Diferente de
+	
+		Os operadores relacionais, em conjunto com os operadores lógicos, são empregados nas estruturas de decisão para determinar o caminho a ser seguido na lógica do programa, ao comparar duas variáveis e verificar qual é maior, menor, igual ou diferente. Assim, uma condição será testada para verificar se é verdadeira ou falsa.
+		
+	IMPORTANTE:
+		Na linguagem C, o número 0 é considerado falso e qualquer número diferente de 0 é verdadeiro. Portanto, ao colocar o valor 0 no local da condição, o bloco de código nunca será executado. Qualquer outro valor numérico tornará a condição verdadeira e o bloco de código será executado. Este comportamento se assemelha ao tipo booleano, onde 0 representa 'falso' e qualquer valor diferente de 0 representa 'verdadeiro'.
+		
+
+OPERADORES LÓGICOS:
+
+	Na tabela a seguir, estão listados todos os operadores C em ordem decrescente de prioridade, com a sua associatividade.
+
+
+	Operadores		Associatividade
+	() []			esquerda para a direita
+	! - ++ --		direita para a esquerda
+	* / %			esquerda para a direita
+	+ -			esquerda para a direita
+	< <= > >=		esquerda para a direita
+	== !=			esquerda para a direita
+	&&			esquerda para a direita
+	||			esquerda para a direita
+	= += -= *= /= %=	direita para a esquerda
+	,			esquerda para a direita

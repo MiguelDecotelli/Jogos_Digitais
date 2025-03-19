@@ -1,0 +1,156 @@
+SOLUÇÃO ESTRUTURADA
+	- Organizar o código em blocos lógicos, utilizando sequências, decisões (condicionais) e repetições (loops) para melhorar a legibilidade, manutenção e eficiência do software.
+
+
+DECOMPOSIÇÃO:
+	- Dividir o problema inicial em partes menores, permitindo que cada parte menor seja mais facilmente resolvida.
+
+
+RECONHECIMENTO DE PADRÕES
+	- Ao decompor um problema em partes menores, fica mais fácil focar os detalhes e perceber que algumas dessas partes já são conhecidas ou tem soluções conhecidas. Isso ajuda na resolução de problemas similares.
+	
+	
+ABSTRAÇÃO
+	- Filtragem e classificação dos dados, concentrando a atenção no que realmente é importante. Ela permite que decições sejam tomadas com maior qualidade, quando concentra-se nos dados realmente importantes.
+	
+
+ALGORÍTMOS
+	- Procedimentos para resolver um problema, detalhando as ações a serem executadas e a ordem em que isso deve ocorrer. Assim como na receita de um bolo, há uma lista de instruções claras e precisas sobre os passos e etapas de todo o processo.
+	
+	
+PROCESSO DE PROGRAMAÇÃO:
+
+	- Entendimento do problema.
+	- Planejamento.
+	- Codificação.
+	- Compilação.
+	- Teste.
+	- Depuração.
+	- Manutenção.
+	
+
+LINGUAGEM DE PROGRAMAÇÃO:
+	- Conjunto de instruções que pode ser usado para se comunicar com um computador.
+	
+	SINTAXE E SEMÂNTICA:
+		- Cada linguagem tem sua própria sintaxe (regras sobre como escrever o código) e semântica (significado das instruções).
+		
+	NÍVEL DE ABSTRAÇÃO:
+		Linguagens podem ser de alto nível (mais próximas a linguagem humana) ou de baixo nível (mais próximas da linguagem de máquina).
+		
+	PARADIGMAS DE PROGRAMAÇÃO:
+		- Diferentes linguagens
+	 suportam diferentes estilos de programação, como programação orientada a objetos, programação funcional, programação procedural, etc.
+
+
+VARIÁVEIS:
+	DEFINIÇÃO:
+		- Espaços na memória do computador usados para armazenar e manipular valores que podem mudar durante a execução do programa.
+	DECLARAÇÃO:
+		- Após definir um tipo, definimos o nome dessa variável.
+		
+LISTA DOS PRINCIPAIS ESPECIFICADORES UTILIZADOS:
+	%d: Imprime um inteiro no formato decimal.
+	%i: Equivalente a %d.
+	%f: Imprime um número de ponto flutuante no formato padrão.
+	%e: Imprime um número de ponto flutuante na notação científica.
+	%c: Imprime um único caractere.
+	%s: Imprime uma cadeia (string) de caracteres.
+
+	IMPORTANTE:
+	- É necessário sempre colocar o caractere “&” antes de cada variável que será lida.
+
+
+MODULARIDADE:
+	- Dividir um problema grande em subproblemas menores é uma técnica fundamental para a solução estruturada. Isso não só torna o problema mais manejável, mas também facilita a identificação e a correção de erros. A fragmentação de um código em funções menores permite também a alteração e substituição de partes do código, sem a necessidade de uma refatoração completa.
+	
+ABSTRAÇÃO:
+	- Permite focar nos aspectos mais importantes de um problema, ignorando os detalhes irrelevantes. Isso é importante para lidar com a complexidade. Ao criar novas funções que executam partes do do problema de forma independente, quando há a necessidade de realizar alterações, é possível alterar somente esta função, gerando uma abstração em relação ao todo.
+	
+
+PSEUDOCÓDIGO:
+	- É uma forma de descrever a lógica do algorítmo em linguagem natura, de maneira estruturada e fácil de entender. Embora não siga a sintaxe de uma linguagem específica, permite organizar ideias e planejar a estrutura do programa.
+	EXEMPLO:
+		Início
+			Solicitar ao usuário um número
+			Receber o número fornecido
+			Se o número for divisível por 2 então
+				Exibir "O número é par"
+			Senão
+				Exibir "O número é ímpar"
+		Fim
+		
+FLUXOGRAMAS
+	- Representações gráficas de um algoritmo, usando símbolos padronizados para ilustrar os passos e o fluxo do processo. São úteis para visualizar a lógica e a sequência das operações. É importante conhecer os componentes principais antes de criar o fluxograma.
+	
+	Ação ou processo:
+		- Retângulo, indicando uma operação ou conjunto de operações.
+	Decisão:
+		- Losango, indicando um ponto aonde uma decisão é feita, podendo levar a diferentes caminhos.
+	Conector:
+		- Círculo, utilizado para conectar diferentes partes do fluxograma.
+	Entradas e Saídas:
+		- Paralelogramo, indica pontos em que dados são recebidos ou enviados.
+	Inćio/Fim:
+		- Elípse, indicando o começo ou fim do fluxo.
+	Seta de Fluxo:
+		- Seta, indicando a direção e a sequência do fluxo do processo.
+	Extrair:
+		- Triângulo, indicando uma operação de extração de dados ou informações.
+	
+	
+	IMPORTANTE:
+		- O uso de pseudocódigo e fluxogramas é fundamental para o planejamento de soluções de problemas complexos. Eles ajudam a visualizar a lógica do programa, identificar possíveis problemas antecipadamente e comunicar a lógica para outras pessoas de maneira clara e concisa. Utlizando essas ferramentas, haverá maior facilidade em desenvolver programas eficientes e bem estruturados.
+		
+	
+TIPOS DE DADOS:
+
+	CONVERSÃO IMPLÍCITA:
+		- Ocorre automaticamente quando você mistura diferentes tipos de dados em uma expressão. O compilador converte os tipos de dados para realizar a operação de acordo com o que é escrito no código.
+
+	TIPO			INTERVALO DE VALORES
+	int			-2,147,483,648 a 2,147,483,647
+	unsigned int		0 a 4,294,967,295
+	char			-128 a 127
+	unsigned char		0 a 255
+	long int		-9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+	double			±1.7E-308 a ±1.7E+308
+	long double		±3.4E-4932 a ±1.1E+4932
+
+
+IMPORTANTE:
+	Escolha o tipo de dado apropriado
+		- Utilize modificadores de tipo quando precisar armazenar valores fora do alcance dos tipos de dados primitivos padrão.
+	Verifique a compatibilidade de tipos
+		- Sempre verifique a compatibilidade dos tipos de dados ao realizar operações aritméticas para evitar resultados inesperados.
+	Use especificadores de formato corretos
+		- Utilize os especificadores de formato corretos ao exibir valores com printf para garantir que os dados sejam exibidos corretamente.
+	
+PRINCIPAIS OPERADORES RELACIONAIS:
+
+	- Os operadores relacionais disponíveis na linguagem C são:
+		> (maior que)
+		< (menor que)
+		>= (maior ou igual a)
+		<= (menor ou igual a)
+		== (igual a)
+		!= (diferente de)
+
+		
+
+
+
+
+
+	
+	
+
+
+Inclusão nível aventureiro - Super Trunfo
+
+Inclusão da densidade populacional e do PIB per capita.
+
+
+
+
+
